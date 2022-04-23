@@ -14,25 +14,30 @@
 }
 
 .App-header {
+  height: 75%;
+  background-image: url(./image/distrash.jpg);
   background-color: #282c34;
-  min-height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(30px + 6vmin);
+  color: black;
+  font-weight: 6;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+}*/
